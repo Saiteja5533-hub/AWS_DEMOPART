@@ -189,3 +189,25 @@ Then I again gave the permission:
 ![image](https://github.com/user-attachments/assets/6096f6a3-cbf3-46d2-92b6-b41e6a5d3f28)
 
 That's all for IAM:
+
+# RDS (Relational Database Service):
+# Introduction to Amazon RDS (Relational Database Service):
+Amazon RDS (Relational Database Service) is a managed database service that simplifies the setup, operation, and scaling of relational databases in the cloud. It automates time-consuming tasks such as backups, patching, and scaling while ensuring high availability and security.
+
+ # Key Features of Amazon RDS:
+Fully Managed – AWS handles backups, patching, and maintenance.
+Multi-AZ Deployment – High availability with automatic failover.
+Read Replicas – Scale read-heavy workloads.
+Automated Backups – Snapshots and point-in-time recovery.
+Security & Compliance – IAM authentication, encryption, and VPC integration.
+Monitoring & Performance Tuning – Amazon CloudWatch, Performance Insights.
+
+# Use Cases of Amazon RDS:
+Web & Mobile Applications
+Analytics & Business Intelligence
+Multi-Region Disaster Recovery
+IoT & Streaming Data Storage
+
+
+
+
