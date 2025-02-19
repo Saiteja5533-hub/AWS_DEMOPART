@@ -143,3 +143,49 @@ I gave the permissions to it:
 
 ![image](https://github.com/user-attachments/assets/71e32892-2a2b-4611-bce5-82b854402441)
 
+Then I checked the s3 incognito mode:
+I see the permission got success:
+
+![image](https://github.com/user-attachments/assets/c487e15b-0f3e-4434-80c1-961167adc9ec)
+
+![image](https://github.com/user-attachments/assets/b883a02c-c710-4d5e-9b1b-f9d387c6e653)
+
+Then I remove the policies create the user groups:
+
+
+![image](https://github.com/user-attachments/assets/6fc80b01-5309-42d2-b17e-ac646c897d4e)
+
+
+![image](https://github.com/user-attachments/assets/45f3d0a4-42c8-4ff5-b9bd-13123aea3486)
+
+If I check for the permission in s3 then it got denied again:
+
+
+![image](https://github.com/user-attachments/assets/a79bdcb1-e855-46b6-8522-9b2f9f7fae20)
+
+Now I created the group in IAM:
+
+
+![image](https://github.com/user-attachments/assets/3cb508b8-d446-471a-8c89-a67fe2b0b330)
+
+
+![image](https://github.com/user-attachments/assets/1f7be61b-e134-4c16-a988-d92c0720b7c9)
+
+
+![image](https://github.com/user-attachments/assets/20689800-073f-4149-bc95-5f60059adc79)
+
+
+![image](https://github.com/user-attachments/assets/891a0248-e6a9-4f05-bd1e-fc1faf10de88)
+
+Then I again gave the permission:
+
+
+![image](https://github.com/user-attachments/assets/65e44a43-b207-4d53-ac39-64a301b688fd)
+
+
+![image](https://github.com/user-attachments/assets/e09b78ec-e33f-4bfd-8d80-d164ef828160)
+
+
+![image](https://github.com/user-attachments/assets/6096f6a3-cbf3-46d2-92b6-b41e6a5d3f28)
+
+That's all for IAM:
