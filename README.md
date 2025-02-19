@@ -8,40 +8,138 @@ Website Hosting
 Big Data & Analytics
 # AWS S3 Console:
 Here I have login to the AWS Account by using my credentials:
+
 ![image](https://github.com/user-attachments/assets/e828530f-868c-4ec6-8958-2e9e14d0d0d2)
+
 Then It takes me to the console page:
 Here I have created the bucket name called "saitejabucket5533"
+
 ![image](https://github.com/user-attachments/assets/d4d72b23-6c42-4836-8bd3-94eec8ac3a7c)
+
 After that I created the folders in bucket:
+
 ![image](https://github.com/user-attachments/assets/83085aa8-0c99-4559-ab92-4e750ba341c1)
+
 I uploaded a file that folder:
+
 ![image](https://github.com/user-attachments/assets/23076f4a-45ec-4e39-ad66-777abbff0246)
+
 ![image](https://github.com/user-attachments/assets/860d8e94-0e1e-487d-affc-e304a0be35ea)
+
 ![image](https://github.com/user-attachments/assets/8443fe4a-86e8-43a5-b222-8e0f45fae865)
+
 Then I login to Iam page:
+
 ![image](https://github.com/user-attachments/assets/9cb8e9bb-94ad-43fd-a970-9fc7de0f7741)
+
 I created A user name called "Saiteja"
+
 ![image](https://github.com/user-attachments/assets/fa966cb4-39fd-4726-8bfc-3670b8133ab1)
+
 I also created the roles here:
+
 ![image](https://github.com/user-attachments/assets/2014ea17-17c2-4d6b-8f6b-04b91de7ba8a)
+
 So this is what I have done in AWS Console
+
 # AWS S3 Command Prompt:
+
 Here I Gave the commands like aws, aws configure, aws access key id, aws secret access key,
+
 ![image](https://github.com/user-attachments/assets/905a14ca-ceda-4f31-9cd4-156a8c3cc0cf)
+
 Then I gave the commands like aws s3 Is, 
+
 ![image](https://github.com/user-attachments/assets/9d3c6c51-20f2-47cb-ae1b-d9c826475b1d)
+
 Then going to coding:
+
 # AWS S3 coding:
 Here I gave the code :
+That's all for the S3 Services.
+
+# IAM (Identity and Access Management):
+# What is IAM:
+AWS IAM (Identity and Access Management) is a service that helps you securely manage users, groups, roles, and permissions in AWS. It ensures that only authorized users and services can access AWS resources.
+
+# Purpose of IAM:
+AWS IAM is essential for securing AWS resources and managing user access. It has some purposes like Authentication & Authorization, Granular Access Control, Secure API & CLI Access, Cross-Account Access, Service-to-Service Authentication, Compliance & Auditing. 
+
+# IAM Console:
+First of all I login to IAM console:
+
+![image](https://github.com/user-attachments/assets/9f2a8685-c1d0-47b2-b687-6dd7ac608bac)
 
 
+![image](https://github.com/user-attachments/assets/09b4f213-d5de-4084-b0f6-2b29254a0ead)
 
+Then It takes me to console page of IAM:
 
-  
+![image](https://github.com/user-attachments/assets/12ce99c7-c3f3-4767-b6a9-74cd12bd3fa1)
 
+Then I went to the users to create a new user:
 
+![image](https://github.com/user-attachments/assets/ceb5425f-5187-4d6f-b2dc-70804451acb1)
 
+![image](https://github.com/user-attachments/assets/4df95771-1db4-4f07-aca2-6083844c5f8d)
 
+You could see successfully created the user:
 
+![image](https://github.com/user-attachments/assets/0858d019-0f7f-499e-bb87-42af6721097d)
 
+Then I moved to security credentials:
+
+![image](https://github.com/user-attachments/assets/9feaafcb-2cf7-4b93-9ba1-b3289fd3dc1d)
+
+![image](https://github.com/user-attachments/assets/c0d5581e-bd5f-436d-8582-165853264e2f)
+
+![image](https://github.com/user-attachments/assets/b7a79bed-23d1-47ad-ad35-0d4f816c7d74)
+
+![image](https://github.com/user-attachments/assets/2deac6f3-97a2-4934-86f7-f8a6f05380e7)
+
+Then After that I opened new incognito window to IAM console by using the credentials I have created recently:
+
+![image](https://github.com/user-attachments/assets/6702aafa-99e4-4614-972b-eb619ae1deef)
+
+So if you could see here the permission for that has been denied:
+
+![image](https://github.com/user-attachments/assets/32dbde3a-a2e1-42d4-9e3b-b3bc5c78c848)
+
+But in S3 it has the permission:
+
+![image](https://github.com/user-attachments/assets/4142f137-4fa9-4801-bf10-4d88bd241f5c)
+
+Then in IAM I went to policies:
+
+![image](https://github.com/user-attachments/assets/94a50455-b698-4157-b4cf-57de16a6a141)
+
+Here I created the policies:
+
+![image](https://github.com/user-attachments/assets/63b16606-40f7-47d4-aafe-db7f34421cb7)
+
+![image](https://github.com/user-attachments/assets/1d9be453-2e5b-4f63-813b-a38100c72576)
+
+I made some code changes here:
+
+![image](https://github.com/user-attachments/assets/3cf3d455-ca00-4b6b-acd6-4658dc6623f0)
+
+I gave name to the policies:
+
+![image](https://github.com/user-attachments/assets/77bcee31-bea5-4756-94df-a9d12d8764b0)
+
+Here the policies has been createed:
+
+![image](https://github.com/user-attachments/assets/392472b0-00ac-4415-9ab2-7ce53b3affa1)
+
+![image](https://github.com/user-attachments/assets/eca61bf6-5e2e-4e99-8fec-99c530c66f53)
+
+Then I moved to permissions:
+
+![image](https://github.com/user-attachments/assets/049ebf70-1e51-472a-bdd0-27597c3231e8)
+
+I gave the permissions to it:
+
+![image](https://github.com/user-attachments/assets/31b429a4-e570-4de7-b0d4-0f1fd34b6e63)
+
+![image](https://github.com/user-attachments/assets/71e32892-2a2b-4611-bce5-82b854402441)
 
