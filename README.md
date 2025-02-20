@@ -58,6 +58,9 @@ Then going to coding:
 Here I gave the code :
 That's all for the S3 Services.
 
+
+
+
 # IAM (Identity and Access Management):
 # What is IAM:
 AWS IAM (Identity and Access Management) is a service that helps you securely manage users, groups, roles, and permissions in AWS. It ensures that only authorized users and services can access AWS resources.
@@ -189,6 +192,10 @@ Then I again gave the permission:
 ![image](https://github.com/user-attachments/assets/6096f6a3-cbf3-46d2-92b6-b41e6a5d3f28)
 
 That's all for IAM:
+
+
+
+
 
 # RDS (Relational Database Service):
 # Introduction to Amazon RDS (Relational Database Service):
