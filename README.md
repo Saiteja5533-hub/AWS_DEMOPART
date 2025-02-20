@@ -208,6 +208,21 @@ Analytics & Business Intelligence
 Multi-Region Disaster Recovery
 IoT & Streaming Data Storage
 
+# AWS RDS Console:
+First I login  to my aws account. Then I search for RDS.
+
+
+![image](https://github.com/user-attachments/assets/e3a30072-a340-4a2c-9b77-0765cd975966)
+
+Then I created the database for RDS using essential options that I have:
+
+
+![image](https://github.com/user-attachments/assets/983942bd-975e-4515-a3c4-acee607df00f)
+
+
+![image](https://github.com/user-attachments/assets/b51f8db6-1686-48db-ad5f-47d7d95b6833)
+
+
 
 
 
