@@ -236,7 +236,7 @@ Then I created the database for RDS using essential options that I have:
 
 
 
-
+# AWS ECS (Elastic Container Service) - Introduction
 # What is ECS
 Amazon ECS (Elastic Container Service) is a fully managed container orchestration service that helps you run, scale, and manage Docker containers on AWS without needing to install and operate your own container orchestration software.
 
@@ -315,3 +315,111 @@ Then I deleted the services and cluster:
 ![image](https://github.com/user-attachments/assets/bef2125f-7b98-4e93-bc82-32b1a3a5c62c)
 
 That's all for ECS:
+
+
+
+
+
+
+# AWS Athena - Introduction
+# What is AWS Athena:
+AWS Athena is a serverless, interactive query service that allows you to analyze data directly from Amazon S3 using SQL. It is built on Presto and runs queries without needing to manage infrastructure.
+
+
+
+# Why Use AWS Athena:
+Serverless – No infrastructure management; AWS handles everything.
+Query S3 Data Directly – No need to load data into a database; just store it in S3 and query it using SQL.
+Cost-Effective – You pay only for the queries you run (charged per TB of data scanned).
+Fast & Scalable – Athena automatically scales based on the query load.
+Supports Multiple Formats – Works with CSV, JSON, Parquet, ORC, Avro, and more.
+Integration with AWS Services – Works well with Glue (Data Catalog), QuickSight (BI Tool), and S3.
+
+
+# Common Use Cases:
+Log Analysis – Query logs stored in S3 (e.g., CloudTrail, VPC Flow Logs).
+Data Lake Queries – Analyze large datasets in S3-based data lakes.
+Ad-hoc Analysis – Run quick SQL queries on unstructured data.
+BI & Reporting – Use Athena with QuickSight for dashboards.
+
+
+
+
+# AWS Athena implementation:
+
+First I created S3 bucket in AWS console:
+
+
+![image](https://github.com/user-attachments/assets/89c99b2e-5467-4c90-9a14-67ce7e4f551e)
+
+
+
+
+Then I have uploaded a csv into it:
+
+
+![image](https://github.com/user-attachments/assets/256e1754-d243-4731-9776-3f9d91ca0d37)
+
+
+
+Then I have created another bucket:
+
+
+
+![image](https://github.com/user-attachments/assets/cc1c5009-0f66-4d75-987e-8d309ebf8c81)
+
+
+
+
+![image](https://github.com/user-attachments/assets/6bfb3524-2929-4296-aec2-fad7c7e9a495)
+
+
+
+Then I have created glue crawler to get the uploaded s3 file and tables:
+
+
+![image](https://github.com/user-attachments/assets/42878f61-73cb-422e-9d51-b159e081f7d0)
+
+
+
+Here I have created a database in aws glue:
+
+
+
+![image](https://github.com/user-attachments/assets/70d1fe9c-99ef-4f2b-b7d1-358c8849db1d)
+
+
+
+A table has been created by aws glue:
+
+
+
+![image](https://github.com/user-attachments/assets/f486a2fe-da88-4f33-8a9e-e03bc9146133)
+
+
+
+
+![image](https://github.com/user-attachments/assets/72eddecc-b691-4c9d-9368-534e78756b0d)
+
+
+
+
+Then I went back to athena :
+
+
+
+
+![image](https://github.com/user-attachments/assets/59d0528d-a3ad-4bdb-be4b-db56fe3aa85b)
+
+
+
+
+
+After I refresh the page I could see my csv file table here:
+
+
+
+![image](https://github.com/user-attachments/assets/8f1af3f4-2e34-48f2-855e-cb1c360e5305)
+
+
+That's all for AWS Athena.
