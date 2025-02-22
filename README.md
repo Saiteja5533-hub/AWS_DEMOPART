@@ -235,3 +235,83 @@ Then I created the database for RDS using essential options that I have:
 
 
 
+
+
+# What is ECS
+Amazon ECS (Elastic Container Service) is a fully managed container orchestration service that helps you run, scale, and manage Docker containers on AWS without needing to install and operate your own container orchestration software.
+
+
+
+
+
+# Why ECS
+Fully Managed: No need to manage control planes or infrastructure.
+Integration with AWS Services: Works well with EC2, Fargate (serverless), IAM, ECR, CloudWatch, ALB, etc.
+Flexible Deployment: Can run on AWS Fargate (serverless) or Amazon EC2 instances.
+Cost-Effective: You only pay for the resources you use, especially with Fargate.
+Security & Compliance: Deep integration with IAM, VPC, and AWS security services
+
+
+
+
+# Uses of ECS:
+Microservices Deployment – Easily deploy and scale microservices-based architectures.
+Batch Processing – Run batch jobs inside containers for data processing, ML training, etc.
+CI/CD Pipelines – Automate containerized application deployments using AWS CodePipeline.
+Hybrid & Multi-Cloud Deployments – Use ECS Anywhere to run containers on-premises.
+Web Applications & APIs – Deploy scalable web services and APIs with ALB integration.
+
+
+
+# Implementation of ECS:
+Here I search for ECS and I opened the ECS:
+
+![image](https://github.com/user-attachments/assets/96947921-34ee-4633-803b-760de7bd00fc)
+
+
+
+Then I created the cluster by doing the necessary changes:
+
+![image](https://github.com/user-attachments/assets/4deaf888-4836-44fd-b6f5-9678471c36a1)
+
+
+Then I moved to task definition and created a new task definition:
+
+![image](https://github.com/user-attachments/assets/462e9297-5894-42db-b46b-9a2bed5d9584)
+
+
+Then I created the services:
+
+
+![image](https://github.com/user-attachments/assets/f18dd940-fd9d-48d3-9360-79d69409b164)
+
+
+
+Then I created the tasks:
+
+
+
+![image](https://github.com/user-attachments/assets/8d3937a7-8053-4b53-b0a0-2c98f3774f85)
+
+
+
+![image](https://github.com/user-attachments/assets/d4666adf-0519-4900-bb13-0b159703ed59)
+
+
+Then I stopped the tasks:
+
+
+![image](https://github.com/user-attachments/assets/f32d269c-ec25-4183-8a65-ab79cf443359)
+
+
+
+Then I deleted the services and cluster:
+
+
+![image](https://github.com/user-attachments/assets/fde3e2cb-37cd-4cfd-b1ed-2a4500bdb46d)
+
+
+
+![image](https://github.com/user-attachments/assets/bef2125f-7b98-4e93-bc82-32b1a3a5c62c)
+
+That's all for ECS:
