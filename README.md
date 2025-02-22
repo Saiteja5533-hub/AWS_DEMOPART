@@ -26,6 +26,8 @@ I uploaded a file that folder:
 
 ![image](https://github.com/user-attachments/assets/860d8e94-0e1e-487d-affc-e304a0be35ea)
 
+
+
 ![image](https://github.com/user-attachments/assets/8443fe4a-86e8-43a5-b222-8e0f45fae865)
 
 Then I login to Iam page:
@@ -231,6 +233,8 @@ Then I created the database for RDS using essential options that I have:
 
 ![image](https://github.com/user-attachments/assets/b51f8db6-1686-48db-ad5f-47d7d95b6833)
 
+That's all for RDS.
+
 
 
 
@@ -239,8 +243,6 @@ Then I created the database for RDS using essential options that I have:
 # AWS ECS (Elastic Container Service) - Introduction
 # What is ECS
 Amazon ECS (Elastic Container Service) is a fully managed container orchestration service that helps you run, scale, and manage Docker containers on AWS without needing to install and operate your own container orchestration software.
-
-
 
 
 
@@ -423,3 +425,68 @@ After I refresh the page I could see my csv file table here:
 
 
 That's all for AWS Athena.
+
+
+
+
+
+
+
+# AWS Glue - Introduction:
+
+# What is AWS Glue:
+AWS Glue is a serverless data integration service that helps you discover, prepare, transform, and move data across different data sources. It is mainly used for ETL (Extract, Transform, Load) workflows and data cataloging.
+
+# Why Use AWS Glue:
+Serverless – No infrastructure management; AWS automatically scales resources.
+Automated Data Discovery – Uses the AWS Glue Data Catalog to crawl and classify data.
+ETL Processing – Allows you to clean, enrich, and transform data using Apache Spark or Python (PySpark).
+Cost-Effective – You only pay for the time your ETL jobs run.
+Integration with AWS Services – Works with Athena, Redshift, S3, RDS, DynamoDB, and more.
+Supports Multiple Data Formats – Handles JSON, CSV, Parquet, ORC, Avro, and others.
+
+
+# Common Use Cases:
+ETL Pipelines – Transform and load raw data from S3 into Redshift, RDS, or DynamoDB.
+Data Cataloging – Create a searchable catalog of all structured and unstructured data.
+Machine Learning Pipelines – Preprocess and clean data for ML models.
+Log & Event Processing – Parse and analyze logs from CloudWatch, S3, or Kinesis.
+
+
+First I created the database in AWS glue:
+
+
+![image](https://github.com/user-attachments/assets/5c9003d2-708b-48c5-831c-3c005004ed59)
+
+
+
+
+Then I created the crawler in AWS glue:
+
+
+
+![image](https://github.com/user-attachments/assets/24bd468e-7101-40f3-bac2-9e763915885b)
+
+
+
+Then I added the tables in crawler to show that in aws crawler:
+
+
+
+
+![image](https://github.com/user-attachments/assets/80944573-12cb-4802-84a6-d9b7e4d0e532)
+
+
+
+![image](https://github.com/user-attachments/assets/76c61d5d-0084-4a78-9905-13ba60c2064d)
+
+
+That's all for AWS GLUE.
+
+ 
+
+
+
+
+
+
