@@ -197,6 +197,8 @@ That's all for IAM:
 
 
 
+
+
 # RDS (Relational Database Service):
 # Introduction to Amazon RDS (Relational Database Service):
 Amazon RDS (Relational Database Service) is a managed database service that simplifies the setup, operation, and scaling of relational databases in the cloud. It automates time-consuming tasks such as backups, patching, and scaling while ensuring high availability and security.
